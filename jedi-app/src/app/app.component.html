@@ -8,7 +8,5 @@
   <img width="300" alt="Angular Logo" src="/assets/yoda.png">
 </div>
 
-<jedi-student [student]='luke'></jedi-student>
-<jedi-student [student]='solo'></jedi-student>
-<jedi-student [student]='leia'></jedi-student>
+<jedi-student *ngFor="let student of students" [student]='student'></jedi-student>
 
