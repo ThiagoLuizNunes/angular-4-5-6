@@ -4,13 +4,13 @@
         "directive-selector": [
             true,
             "attribute",
-            "jad",
+            "jedi",
             "camelCase"
         ],
         "component-selector": [
             true,
             "element",
-            "jad",
+            "jedi",
             "kebab-case"
         ]
     }
