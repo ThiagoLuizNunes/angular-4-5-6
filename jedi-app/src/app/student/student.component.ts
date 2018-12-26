@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { Student } from './studant.model';
+import { Student } from './student.model';
 
 @Component({
   selector: 'jedi-student',
